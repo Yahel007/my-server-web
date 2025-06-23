@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sistemas Operativos de Red</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #f8e71c;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 25px;
+      text-align: left;
+      transition: transform 0.3s ease;
+      backdrop-filter: blur(6px);
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 70px;
+      float: right;
+      margin-top: -10px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #ffd700;
+    }
+
+    .card p {
+      color: #e0e0e0;
+      line-height: 1.5;
+      font-size: 0.95em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      font-size: 0.9em;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sistemas Operativos de Red</h1>
+    <p>Explora los sistemas que permiten conectar, administrar y proteger redes informáticas</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1828/1828874.png" alt="Redes">
+      <h3>¿Qué es un Sistema Operativo de Red?</h3>
+      <p>
+        Es un software especializado que permite a múltiples computadoras conectarse entre sí,
+        compartir recursos, administrar usuarios y garantizar la seguridad en una red. Son esenciales en empresas, escuelas y servidores.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Tipos">
+      <h3>Tipos de Sistemas</h3>
+      <p>
+        <strong>Centralizados:</strong> un servidor controla todo.<br>
+        <strong>Distribuidos:</strong> varios equipos comparten control.<br>
+        <strong>Cliente-Servidor:</strong> modelo común en redes modernas.<br>
+        <strong>P2P:</strong> sin jerarquías, todos son iguales.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/906/906175.png" alt="Componentes">
+      <h3>Componentes Principales</h3>
+      <p>
+        Manejan <strong>usuarios</strong>, <strong>permisos</strong>, <strong>protocolos</strong> (como TCP/IP),
+        <strong>archivos compartidos</strong> y <strong>servicios</strong> como DHCP, DNS o FTP.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" alt="Linux">
+      <h3>Sistemas Populares</h3>
+      <p>
+        <strong>Windows Server:</strong> fácil de usar, popular en empresas.<br>
+        <strong>Linux:</strong> Ubuntu Server, CentOS, Debian: potente y libre.<br>
+        <strong>UNIX:</strong> más usado en servidores grandes y bancos.<br>
+        <strong>FreeBSD:</strong> muy seguro y estable.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3062/3062634.png" alt="Seguridad">
+      <h3>Seguridad en la Red</h3>
+      <p>
+        Un buen SOR incluye <strong>firewalls, cifrado, control de acceso</strong>, autenticación fuerte y
+        protección contra virus e intrusos. Sin seguridad no hay red confiable.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1822/1822922.png" alt="Futuro">
+      <h3>El Futuro de los SOR</h3>
+      <p>
+        Se integran con <strong>la nube</strong>, la <strong>virtualización</strong> y <strong>contenedores</strong> como Docker.
+        Se conectan con herramientas de automatización y DevOps para agilizar redes empresariales modernas.
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    Desarrollado por Yahel David Herrera © 2025 — Página educativa
+  </footer>
+
+</body>
+</html>
